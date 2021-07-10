@@ -1,0 +1,1 @@
+{"version":3,"file":"destructuring.js","sourceRoot":"","sources":["../destructuring.ts"],"names":[],"mappings":";AAAA,IAAI,aAAa,GAAG,CAAC,CAAC,EAAE,KAAK,EAAE,KAAK,CAAC,CAAA;AAC9B,IAAA,KAAK,GAA2B,aAAa,GAAxC,EAAE,MAAM,GAAmB,aAAa,GAAhC,EAAE,KAAiB,aAAa,GAAjB,EAAb,KAAK,mBAAG,KAAK,KAAA,CAAiB;AACpD,OAAO,CAAC,GAAG,CAAC,KAAK,EAAE,MAAM,EAAE,KAAK,CAAC,CAAA"}
