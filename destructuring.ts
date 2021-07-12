@@ -39,7 +39,7 @@ const result = {
 }
 function makeList(arr) {
   // Only change code below this linelu => ele
-  const listArr = arr.map((el) => {
+  const listArr = arr.map((el: any) => {
     return `<li class="text-warning">${el}</li>,`
   })
   console.log(listArr)
