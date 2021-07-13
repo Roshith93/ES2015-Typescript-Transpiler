@@ -37,7 +37,7 @@ const result = {
   failure: ['no-var', 'var-on-top', 'linebreak'],
   skipped: ['no-extra-semi', 'no-dup-keys'],
 }
-function makeList(arr) {
+function makeList(arr: any) {
   // Only change code below this linelu => ele
   const listArr = arr.map((el: any) => {
     return `<li class="text-warning">${el}</li>,`
