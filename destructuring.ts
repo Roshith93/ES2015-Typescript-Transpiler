@@ -25,10 +25,10 @@ const stats = {
 
 // Only change code below this line
 
-const half = ({ stats: { max, min } }) => {
-  // const { max, min } = stats
-  console.log((max + min) / 2.0)
-}
+// const half = ({ stats: ({ max: string , min }) }) => {
+//   // const { max, min } = stats
+//   console.log((max + min) / 2.0)
+// }
 
 // half(stats)
 

@@ -26,11 +26,10 @@ var stats = {
     average: 35.85,
 };
 // Only change code below this line
-var half = function (_a) {
-    var _b = _a.stats, max = _b.max, min = _b.min;
-    // const { max, min } = stats
-    console.log((max + min) / 2.0);
-};
+// const half = ({ stats: ({ max: string , min }) }) => {
+//   // const { max, min } = stats
+//   console.log((max + min) / 2.0)
+// }
 // half(stats)
 var result = {
     success: ['max-length', 'no-amd', 'prefer-arrow-functions'],
