@@ -7,6 +7,19 @@ class Person {
     return 'maim'
   }
 }
+
+class Asian extends Person {
+  constructor(name: string) {
+    super(name)
+    this.name = name
+  }
+  fullName(x: string) {
+    return `name from person from ${x}`
+  }
+}
+
+const Indian = new Asian('I am an indian')
+console.log(Indian.fullName('hello'))
 const p = new Person('John')
 const Employee = new Person('Starvy')
 

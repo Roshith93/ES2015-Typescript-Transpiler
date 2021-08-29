@@ -24,6 +24,20 @@ var Person = /** @class */ (function () {
     };
     return Person;
 }());
+var Asian = /** @class */ (function (_super) {
+    __extends(Asian, _super);
+    function Asian(name) {
+        var _this = _super.call(this, name) || this;
+        _this.name = name;
+        return _this;
+    }
+    Asian.prototype.fullName = function (x) {
+        return "name from person from " + x;
+    };
+    return Asian;
+}(Person));
+var Indian = new Asian('I am an indian');
+console.log(Indian.fullName('hello'));
 var p = new Person('John');
 var Employee = new Person('Starvy');
 var Employees = /** @class */ (function (_super) {
