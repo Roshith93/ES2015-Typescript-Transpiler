@@ -1,4 +1,5 @@
 class Person {
+  name: string
   constructor(name: string) {
     this.name = name
     console.log(this.name)
@@ -9,6 +10,7 @@ class Person {
 }
 
 class Asian extends Person {
+  name: string
   constructor(name: string) {
     super(name)
     this.name = name
@@ -24,7 +26,8 @@ const p = new Person('John')
 const Employee = new Person('Starvy')
 
 class Employees extends Person {
-  constructor(name) {
+  name: string
+  constructor(name: string) {
     super(name)
     this.name = name
     console.log(this.name)
