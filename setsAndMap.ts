@@ -23,7 +23,7 @@ let newObj = {};
 let obj1 = {};
 let obj2 = {};
 
-newObj[obj1] = 'Hello World'
-console.log(newObj)
+// newObj[obj1] = 'Hello World'
+// console.log(newObj)
 
-console.log(newObj[obj2])
+// console.log(newObj['obj2'])
