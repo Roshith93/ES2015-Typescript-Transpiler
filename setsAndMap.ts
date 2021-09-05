@@ -16,3 +16,14 @@ let uniqueArr= arr.filter(el => {
 })
 
 console.log(uniqueArr)
+
+
+let newObj = {};
+
+let obj1 = {};
+let obj2 = {};
+
+newObj[obj1] = 'Hello World'
+console.log(newObj)
+
+console.log(newObj[obj2])

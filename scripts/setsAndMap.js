@@ -16,4 +16,10 @@ var uniqueArr = arr.filter(function (el) {
     return !duplicate;
 });
 console.log(uniqueArr);
+var newObj = {};
+var obj1 = {};
+var obj2 = {};
+newObj[obj1] = 'Hello World';
+console.log(newObj);
+console.log(newObj[obj2]);
 //# sourceMappingURL=setsAndMap.js.map
